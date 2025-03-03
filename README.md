@@ -19,22 +19,23 @@ cd CSB320_InClass
 2.	**Create the Conda Environment**
 Use the requirements.yml file to create a new Conda environment. This file specifies all necessary dependencies and their versions.
 Run the following command:
-```bash
-conda env create -f requirements.yml
+
+	```bash
+	conda env create -f requirements.yml
 
 4.  **Activate the Conda Environment**
-```bash
-conda activate CSB320_InClass
+	```bash
+	conda activate CSB320_InClass
 
 5.  **Verify the Environment**
 To confirm that the environment is set up correctly and all packages are installed, list the installed packages:
-```bash
-conda list
+	```bash
+	conda list
 
 **Additional Information**
 	•	Updating the Environment
 If there are updates to the requirements.yml file or additional packages are needed, update the environment with:
-```bash
-conda env update -f requirements.yml
+	```bash
+	conda env update -f requirements.yml
 
 This code may update regularly, so best to do a git pull and get the latest version.
