@@ -1,4 +1,4 @@
-name: CSB320_InClass
+name: CSB320
 channels:
   - conda-forge
   - defaults
