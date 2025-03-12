@@ -1,0 +1,11 @@
+gymnasium[atari,box2d,classic_control]
+ale-py
+pygame
+opencv-python
+tensorflow
+tf-agents
+ray[rllib]
+tqdm
+torch
+torchvision
+torchaudio

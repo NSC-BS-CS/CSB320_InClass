@@ -1,0 +1,15 @@
+name: python-ml
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pandas
+  - pillow
+  - graphviz
+  - python-graphviz
+  - imageio
+  - joblib
+  - spacy
+  - nltk
