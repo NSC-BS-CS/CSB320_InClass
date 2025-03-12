@@ -1,11 +1,12 @@
-from IPython.display import set_matplotlib_formats, display
-import pandas as pd
+import matplotlib_inline
+from IPython.display import display
 import numpy as np
 import matplotlib.pyplot as plt
 import mglearn
 from cycler import cycler
+import pandas as pd
 
-set_matplotlib_formats('pdf', 'png')
+matplotlib_inline.backend_inline.set_matplotlib_formats('png')
 plt.rcParams['savefig.dpi'] = 300
 plt.rcParams['image.cmap'] = "viridis"
 plt.rcParams['image.interpolation'] = "none"
@@ -21,4 +22,4 @@ np.set_printoptions(precision=3, suppress=True)
 pd.set_option("display.max_columns", 8)
 pd.set_option('display.precision', 2)
 
-__all__ = ['np', 'mglearn', 'display', 'plt', 'pd']
+__all__ = ['np', 'mglearn', 'plt', 'pd']
